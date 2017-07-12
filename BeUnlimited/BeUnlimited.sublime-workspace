@@ -1,0 +1,688 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"flex",
+				"inline-flex"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"shape",
+				"shape-rendering"
+			],
+			[
+				"x",
+				"translateX()"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"transition",
+				"transition-duration"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"background",
+				"background-attachment"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"ail",
+				"align-content"
+			],
+			[
+				"shadow",
+				"box-shadow"
+			],
+			[
+				"a",
+				"saturate()"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"styel",
+				"list-style"
+			],
+			[
+				"t",
+				"pointer"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"s",
+				"space-between"
+			],
+			[
+				"item_",
+				"item_outpost"
+			],
+			[
+				"item",
+				"itemTypeConsumable"
+			],
+			[
+				"random",
+				"randomTypeMKB"
+			],
+			[
+				"var",
+				"var"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"pong",
+				"pongmanager"
+			],
+			[
+				"pon",
+				"PongManager"
+			],
+			[
+				"connect",
+				"connectionManager"
+			],
+			[
+				"dif",
+				"dificulty"
+			],
+			[
+				"alig",
+				"align-content"
+			],
+			[
+				"o",
+				"optimizeSpeed"
+			],
+			[
+				"key",
+				"keyPress"
+			],
+			[
+				"check",
+				"checkRelease"
+			],
+			[
+				"fill",
+				"fillStyle"
+			],
+			[
+				"diffi",
+				"difficulties"
+			],
+			[
+				"initi",
+				"initialSpeed"
+			],
+			[
+				"init",
+				"initialSpeed"
+			],
+			[
+				"draw",
+				"drawPoints"
+			],
+			[
+				"set",
+				"setCookie"
+			],
+			[
+				"new",
+				"newHighScore"
+			],
+			[
+				"cookie",
+				"cookieStr"
+			],
+			[
+				"pla",
+				"players"
+			],
+			[
+				"High",
+				"HighScore"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"difficul",
+				"difficulty"
+			],
+			[
+				"ball",
+				"ballPos"
+			],
+			[
+				"offset",
+				"offsetY"
+			],
+			[
+				"dr",
+				"drawScore"
+			],
+			[
+				"CHAR",
+				"CHAR_W"
+			],
+			[
+				"CHA",
+				"CHARS"
+			],
+			[
+				"Char",
+				"CHAR_W"
+			],
+			[
+				"CHar",
+				"CHAR_PIXEL"
+			],
+			[
+				"CAR",
+				"CHAR_PIXEL"
+			],
+			[
+				"anim",
+				"animation-direction"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"padi",
+				"padding-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Home/home.html",
+			"settings":
+			{
+				"buffer_size": 5577,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Home/home.css",
+			"settings":
+			{
+				"buffer_size": 5091,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Home/sailshape.css",
+			"settings":
+			{
+				"buffer_size": 196,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ja",
+				"Snippet: java.beans."
+			],
+			[
+				"java",
+				"Build With: JavaC"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/BeUnlimited/index.html",
+		"/D/BeUnlimited/menu.css",
+		"/D/BeUnlimited/main.css",
+		"/D/BeUnlimited/inventor.html",
+		"/D/BeUnlimited/menu.js",
+		"/D/BeUnlimited/splash.js",
+		"/D/BeUnlimited/splash.css",
+		"/C/Users/Rob/Documents/Projects/Mechanix/script.js",
+		"/C/Users/Rob/Documents/Projects/Mechanix/styles.css",
+		"/C/Users/Rob/Documents/Projects/Mechanix/styles2.css",
+		"/C/Users/Rob/Documents/Projects/Mechanix/section4.html",
+		"/C/Users/Rob/Documents/Projects/Mechanix/index.html",
+		"/C/Users/Rob/Documents/Projects/Mechanix/[path",
+		"/C/Users/Rob/Documents/Projects/Small Mechanics/styles.css",
+		"/C/Users/Rob/Documents/Projects/Small Mechanics/jquery.js",
+		"/C/Users/Rob/Documents/Projects/Small Mechanics/index.html",
+		"/C/Users/Rob/Documents/Projects/oaa/outpost.lua",
+		"/C/Users/Rob/Documents/Projects/oaa/notes.txt",
+		"/C/Users/Rob/Documents/Projects/oaa/item_outpost.txt",
+		"/C/Users/Rob/Documents/Projects/Small Mechanics/json.js",
+		"/C/Users/Rob/Documents/Projects/Small Mechanics/ajax.js",
+		"/C/Users/Rob/Documents/Projects/Recursive Tree/Recursive-Binary-Tree/index.html",
+		"/C/Users/Rob/Documents/Projects/Recursive Tree/Recursive-Binary-Tree/styles.css",
+		"/C/Users/Rob/Documents/Projects/Ping Pong/index.html",
+		"/C/Users/Rob/Documents/Projects/Ping Pong/Pong.html",
+		"/C/Users/Rob/Documents/Projects/Ping Pong/pingpong.js",
+		"/C/Users/Rob/Documents/Projects/Ping Pong/Player.js",
+		"/C/Users/Rob/Documents/Projects/Ping Pong/Objects.js",
+		"/C/Users/Rob/Documents/Projects/Ping Pong/PongManager.js",
+		"/C/Users/Rob/Documents/Projects/Ping Pong/ConnectionManager.js",
+		"/C/Users/Rob/Documents/Projects/Ping Pong/Server.js",
+		"/C/Users/Rob/Documents/Projects/Ping Pong/Session.js",
+		"/C/Users/Rob/Documents/Projects/Ping Pong/Client.js",
+		"/C/Users/Rob/Documents/Projects/Ping Pong/Cookie.js",
+		"/C/Users/Rob/Documents/Projects/Ping Pong/Clients.js",
+		"/C/Users/Rob/Documents/Projects/Ping Pong/ping_pong_8bit_peeeeeep.wav",
+		"/C/Users/Rob/Documents/Projects/Robert Fiola/Robert Fiola.html",
+		"/C/Users/Rob/Documents/Projects/Robert Fiola/jquery.js",
+		"/C/Users/Rob/Documents/Projects/Robert Fiola/styles.css",
+		"/C/Users/Rob/Documents/Documents/RRC/test",
+		"/C/Users/Rob/Documents/Documents/RRC/Java 4 (3)/MotorsInc.java"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h2",
+			"content",
+			"section",
+			"50",
+			"class",
+			"products",
+			"Image",
+			"\") ",
+			"div",
+			"0B421A",
+			"21B030",
+			"sidenav",
+			"map",
+			"vs",
+			"setplayers",
+			"diffi",
+			"setdiffi",
+			"fillrect",
+			"docuement",
+			"e",
+			"playermove",
+			"p2move",
+			"p1move",
+			"player.vel.y",
+			"players[0].vel.y",
+			"keycom",
+			"keypr",
+			"reset",
+			"requestAnimationFrame",
+			"requestAnimationFrame\t",
+			"difficulties",
+			"difficulty",
+			"vel",
+			";\n",
+			"vel",
+			"ball",
+			"goal",
+			"left",
+			"_Points",
+			"div",
+			"highscore",
+			"HighScore",
+			"highscore",
+			"this.ball",
+			"span",
+			"div",
+			"sound",
+			"soun",
+			"sounthis.d",
+			"sound",
+			"collide",
+			"Console",
+			"b",
+			"initialSpeed",
+			"velX",
+			"label",
+			"p",
+			"upda",
+			"ballY",
+			"playerY",
+			"this.players[1].pos",
+			"ball",
+			"player",
+			"pos",
+			"this.players[1].pos.y",
+			"name",
+			"aiSpeed",
+			"setDifficulty",
+			"diffi",
+			"mygroup",
+			"no",
+			"score",
+			"this.ball.vel",
+			"aiSpeed",
+			"x",
+			"pong.ball",
+			"callback",
+			"300",
+			"vel",
+			"this",
+			"0",
+			"ball",
+			"canvas",
+			"x",
+			"        \n",
+			"V"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Home/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2350,
+								2350
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1219.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Home/home.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								849,
+								855
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 778.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Home/sailshape.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"project": "BeUnlimited.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Rob\\Documents\\Projects\\Ping Pong\\Pong.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
