@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "home.html",
+    "currentPage": "inventor.html",
     "name": "BEunlimited",
     "theme": {
       "name": "mobirise3",
@@ -17,12 +17,12 @@
         "textFont": "Raleway",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
-        "isScrollToTopButton": true,
+        "isScrollToTopButton": false,
         "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 44,
+    "uniqCompNum": 45,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/sailicon-128x128-1.png",
     "noImageResize": ""
@@ -158,7 +158,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1379.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/drawing-2000x1328.png",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -172,7 +172,7 @@
             "showCaption": true
           },
           "title": "INVENTOR PROGRAM",
-          "caption": "<p>You have an idea in your head that is We will take you through the steps in becoming an inventor.</p>"
+          "caption": "<p>You have an idea in your head that is itching to come out. We will take you through the steps in becoming an inventor.</p>"
         },
         {
           "_tags": [
@@ -229,7 +229,7 @@
             "showButtons": false
           },
           "title": "DESIGN",
-          "text": "Step by step, we will take you trhough the process of creating your product.&nbsp;<br>",
+          "text": "Step by step, we will take you through the process of creating your product.&nbsp;<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
@@ -287,8 +287,13 @@
             "showButtons": false
           },
           "title": "MANUFACTURING",
-          "text": "Bring your product to the world. Sell it online, in stores or through marketing.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+          "text": "Bring your product to the world. <br>Start making orders. <br>Sell it online, in stores or through marketing.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "72px"
+            }
+          }
         },
         {
           "_tags": [
@@ -471,7 +476,7 @@
     "products.html": {
       "settings": {
         "title": "BEunlimited-products",
-        "meta_descr": "",
+        "meta_descr": "Winnipeg\nLorette\nInventor\nBear Bait\nMammoth Sucka",
         "order": 2
       },
       "components": [
@@ -674,7 +679,7 @@
           },
           "media1": {
             "image": {
-              "src": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/gallery/table.jpg",
+              "src": "@PROJECT_PATH@/assets/images/led-bulbs-600x400.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -686,11 +691,11 @@
           },
           "title1": "LED Bulbs",
           "subtitle1": "$$$",
-          "caption1": "Description",
+          "caption1": "Save money on your monthly bills by replacing all your <br>energy consuming bulbs with efficient LED bulbs.",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/gallery/desktop.jpg",
+              "src": "@PROJECT_PATH@/assets/images/solar-panels-australia-600x347.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -702,7 +707,7 @@
           },
           "title2": "Solar Panels",
           "subtitle2": "$$$",
-          "caption2": "Description",
+          "caption2": "Reduce your electricity bill by providing some of your <br>own energy with solar panels in your own home.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
@@ -818,7 +823,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x400.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mammothsucka-160x120.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -829,12 +834,12 @@
             }
           },
           "title1": "Bear Bait",
-          "subtitle1": "Client Company",
-          "caption1": "$Price.00<br>Description",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "subtitle1": "Phil Dupuis",
+          "caption1": "$140.00<br>Make your own bear bait sucker with this patent pending silicone mould.",
+          "button1": "<a data-app-btn=\"true\" href=\"http://www.kicktraq.com/projects/1486032864/mammoth-sucka/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x400.jpg",
+              "src": "@PROJECT_PATH@/assets/images/wallanchorrailing-600x761.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -846,7 +851,7 @@
           },
           "title2": "Handrail Anchor",
           "subtitle2": "Client Company",
-          "caption2": "$Price.00<br>Description",
+          "caption2": "$50.00<br>Strengthen your wall handrail",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media3": {
             "image": {
@@ -1191,15 +1196,15 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/drawing-2000x1328.png",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": "0",
+            "overlay": true,
+            "overlayOpacity": "0.4",
             "overlayColor": "#ffffff",
             "contentAlign": "center",
             "showTitle": false,
@@ -1232,6 +1237,13 @@
           "_styles": {
             ".mbr-section-title, p": {
               "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            "P": {
+              "color": "#232323"
             }
           },
           "_tags": [
@@ -1253,12 +1265,73 @@
             "bgVideoRadio": true,
             "overlay": true,
             "overlayOpacity": "0.8",
-            "overlayColor": "#000",
+            "overlayColor": "#ffffff",
             "showTitle": true,
             "showCaption": true
           },
           "title": "Our goal is to make what is in your imagination apear into your hands.&nbsp;",
-          "caption": "<p>Located near Winnipeg, MB, Canada.</p>"
+          "caption": "<p><br></p><p>We want to take your ingenious idea and make a real vesion in your hands. From napkin drawing to the production line, we will take you through each step of the way. Contact us to get started.</p><p>Located near Winnipeg, MB, Canada.</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "timeout": "2",
+            "slides": [
+              {
+                "active": true,
+                "image": "@THEME_PATH@/components/_images/slider/man-back.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "IMAGE SLIDER",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "BACKGROUND VIDEO",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": false,
+            "bgColor": "#fff",
+            "showBullets": false
+          },
+          "_anchor": "slider3-18",
+          "articleLayout": false
         },
         {
           "_tags": [
@@ -1282,10 +1355,28 @@
           },
           "testimonial": [
             {
-              "text": "<p><b><a href=\"#top\">Bear Bait</a></b></p><p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
+              "text": "<p><b>Jack Fisher</b></p><p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
               "media": {
                 "image": {
-                  "src": "@PROJECT_PATH@/assets/images/mbr-160x106.jpg",
+                  "src": "@PROJECT_PATH@/assets/images/mammothsucka-160x120.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "Mammoth Sucka",
+                  "title": "Mammoth Sucka",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "<a href=\"http://www.kicktraq.com/projects/1486032864/mammoth-sucka/\">Bear Bait</a>",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p><b>Bob Dylan</b></p><p>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag &amp; drop with no time design bootstrap builder in present web design world.”</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/wallanchorrailing-600x761.jpg",
                   "class": "img-circle",
                   "height": 160,
                   "width": 160,
@@ -1296,41 +1387,13 @@
                   "linkInNewWindow": false
                 }
               },
-              "authorName": "Abanoub S.",
-              "authorBio": "User"
-            },
-            {
-              "text": "<p><b>Railing Anchor</b></p><p>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag &amp; drop with no time design bootstrap builder in present web design world.”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face1.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Suffian A.",
-              "authorBio": "User"
-            },
-            {
-              "text": "<p>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
-              "media": {
-                "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              },
-              "authorName": "Jhollman C.",
+              "authorName": "Wall Anchor for Railing",
               "authorBio": "User"
             }
           ],
           "_anchor": "testimonials2-0",
           "_params": {
-            "count": "3",
+            "count": "2",
             "paddingTop": "1",
             "paddingBottom": "1",
             "showImages": true,
@@ -1339,7 +1402,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
-            "bgColor": "#efefef",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.2,
