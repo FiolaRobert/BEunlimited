@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "inventor.html",
+    "currentPage": "home.html",
     "name": "BEunlimited",
     "theme": {
       "name": "mobirise3",
@@ -690,7 +690,7 @@
             }
           },
           "title1": "LED Bulbs",
-          "subtitle1": "$$$",
+          "subtitle1": "",
           "caption1": "Save money on your monthly bills by replacing all your <br>energy consuming bulbs with efficient LED bulbs.",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
@@ -706,7 +706,7 @@
             }
           },
           "title2": "Solar Panels",
-          "subtitle2": "$$$",
+          "subtitle2": "",
           "caption2": "Reduce your electricity bill by providing some of your <br>own energy with solar panels in your own home.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -1302,11 +1302,11 @@
                 "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
+                "overlay": false,
                 "contentAlign": "left",
-                "showTitle": true,
+                "showTitle": false,
                 "title": "BACKGROUND VIDEO",
-                "showText": true,
+                "showText": false,
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
@@ -1316,13 +1316,13 @@
                 "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
+                "overlay": false,
                 "contentAlign": "right",
-                "showTitle": true,
+                "showTitle": false,
                 "title": "BOOTSTRAP SLIDER",
-                "showText": true,
+                "showText": false,
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
+                "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ],
