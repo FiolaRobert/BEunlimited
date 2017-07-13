@@ -158,7 +158,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/drawing-2000x1328.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1379.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -1196,7 +1196,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/drawing-2000x1328.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1379.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -1270,7 +1270,7 @@
             "showCaption": true
           },
           "title": "Our goal is to make what is in your imagination apear into your hands.&nbsp;",
-          "caption": "<p><br></p><p>We want to take your ingenious idea and make a real vesion in your hands. From napkin drawing to the production line, we will take you through each step of the way. Contact us to get started.</p><p>Located near Winnipeg, MB, Canada.</p>"
+          "caption": "<p><br></p><p>Hello. My name is Phil Dupuis. I am here to take your ingenious idea and make a real vesion in your hands. From napkin drawing to the production line, we will take you through each step of the way. Contact us to get started.</p><p>Located near Winnipeg, MB, Canada.</p>"
         },
         {
           "_tags": [
