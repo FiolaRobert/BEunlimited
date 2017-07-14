@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "home.html",
+    "currentPage": "inventor.html",
     "name": "BEunlimited",
     "theme": {
       "name": "mobirise3",
@@ -25,13 +25,14 @@
     "uniqCompNum": 45,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/sailicon-128x128-1.png",
-    "noImageResize": ""
+    "noImageResize": "",
+    "path": "@PROJECT_PATH@"
   },
   "pages": {
     "inventor.html": {
       "settings": {
         "title": "BEunlimited-Inventor",
-        "meta_descr": "",
+        "meta_descr": "inventor,\ninventing,\ndesign,\nproducts,\nmanufactur,\nidea",
         "order": 4
       },
       "components": [
@@ -266,6 +267,11 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "72px"
+            }
+          },
           "_anchor": "header1-14",
           "_params": {
             "parallax": true,
@@ -288,12 +294,7 @@
           },
           "title": "MANUFACTURING",
           "text": "Bring your product to the world. <br>Start making orders. <br>Sell it online, in stores or through marketing.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-size": "72px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_tags": [
@@ -449,7 +450,7 @@
           },
           "text1": "<strong>Address</strong><br>36 Birdsong Road<br>Lorette, MB<br>Canada",
           "text2": "<strong>Contacts</strong><br>\n<a href=\"mailto:phildupuis@gmail.com\">Email</a><br>\nCall: <a href=\"tel:204-804-3283\">(204)804-3283</a><br>",
-          "text3": "<p><strong>Follow Us</strong><br>\n<a href=\"https://www.facebook.com/phil.dupuis.33\" target=\"_blank\">Facebook</a><br>\n<a href=\"https://instagram.com\" target=\"_blank\">Instagram</a><br></p>"
+          "text3": "<p><strong>Follow Us</strong><br>\n<a href=\"https://www.facebook.com/phil.dupuis.33\" target=\"_blank\">Facebook</a><br>\n<a href=\"https://instagram.com\" target=\"_blank\">Instagram</a></p><p><a href=\"https://www.kickstarter.com/projects/1486032864/mammoth-sucka/creator_bio\">Kickstarter</a><a href=\"https://instagram.com\" target=\"_blank\"><br></a><br></p>"
         },
         {
           "_tags": [
@@ -476,7 +477,7 @@
     "products.html": {
       "settings": {
         "title": "BEunlimited-products",
-        "meta_descr": "Winnipeg\nLorette\nInventor\nBear Bait\nMammoth Sucka",
+        "meta_descr": "Winnipeg,\nLorette,\nInventor,\nBear Bait,\nMammoth Sucka,\nwall anchor",
         "order": 2
       },
       "components": [
@@ -619,6 +620,11 @@
             "Theme"
           ],
           "_name": "msg-box1",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "msg-box1-15",
           "_params": {
             "paddingTop": "1",
@@ -642,12 +648,7 @@
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"products.html#form1-v\" data-toolbar=\"-mbrBtnMove\">ORDER PRODUCTS</a>",
           "text": "Get products that are good for green.",
-          "title": "ENERGY PRODUCTS",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff"
-            }
-          }
+          "title": "ENERGY PRODUCTS"
         },
         {
           "_tags": [
@@ -1053,7 +1054,7 @@
           },
           "text1": "<strong>Address</strong><br>36 Birdsong Road<br>Lorette, MB<br>Canada",
           "text2": "<strong>Contacts</strong><br>\n<a href=\"mailto:phildupuis@gmail.com\">Email</a><br>\nCall: <a href=\"tel:204-804-3283\">(204)804-3283</a><br>",
-          "text3": "<p><strong>Follow Us</strong><br>\n<a href=\"https://www.facebook.com/phil.dupuis.33\" target=\"_blank\">Facebook</a><br>\n<a href=\"https://instagram.com\" target=\"_blank\">Instagram</a><br></p>"
+          "text3": "<p><strong>Follow Us</strong><br>\n<a href=\"https://www.facebook.com/phil.dupuis.33\" target=\"_blank\">Facebook</a><br>\n<a href=\"https://instagram.com\" target=\"_blank\">Instagram</a></p><p><a href=\"https://www.kickstarter.com/projects/1486032864/mammoth-sucka/creator_bio\">Kickstarter</a><a href=\"https://instagram.com\" target=\"_blank\"><br></a><br></p>"
         },
         {
           "_tags": [
@@ -1081,7 +1082,7 @@
       "settings": {
         "main": true,
         "title": "BEunlimited-Home",
-        "meta_descr": "",
+        "meta_descr": "inventing,\nenginuity",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -1220,18 +1221,18 @@
             "Theme"
           ],
           "_name": "buttons1",
+          "_styles": {
+            ".btn": {
+              "font-size": "24px"
+            }
+          },
           "_anchor": "buttons1-z",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-primary-outline btn-primary\" href=\"inventor.html\" data-toolbar=\"-mbrBtnMove\">INVENTOR PROGRAM</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline btn-primary\" href=\"products.html\" data-toolbar=\"-mbrBtnMove\">ENERGY PRODUCTS</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline btn-primary\" href=\"products.html#msg-box8-u\" data-toolbar=\"-mbrBtnMove\">CLIENT PRODUCTS</a>",
-          "_styles": {
-            ".btn": {
-              "font-size": "24px"
-            }
-          }
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-primary-outline btn-primary\" href=\"inventor.html\" data-toolbar=\"-mbrBtnMove\">INVENTOR PROGRAM</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline btn-primary\" href=\"products.html\" data-toolbar=\"-mbrBtnMove\">ENERGY PRODUCTS</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline btn-primary\" href=\"products.html#msg-box8-u\" data-toolbar=\"-mbrBtnMove\">CLIENT PRODUCTS</a>"
         },
         {
           "_styles": {
@@ -1369,7 +1370,7 @@
                   "linkInNewWindow": false
                 }
               },
-              "authorName": "<a href=\"http://www.kicktraq.com/projects/1486032864/mammoth-sucka/\">Bear Bait</a>",
+              "authorName": "<p><a href=\"http://www.kicktraq.com/projects/1486032864/mammoth-sucka/\">Mammoth Sucka</a><a href=\"http://www.kicktraq.com/projects/1486032864/mammoth-sucka/\"></a></p>",
               "authorBio": "User"
             },
             {
@@ -1507,7 +1508,7 @@
           },
           "text1": "<strong>Address</strong><br>36 Birdsong Road<br>Lorette, MB<br>Canada",
           "text2": "<strong>Contacts</strong><br>\n<a href=\"mailto:phildupuis@gmail.com\">Email</a><br>\nCall: <a href=\"tel:204-804-3283\">(204)804-3283</a><br>",
-          "text3": "<p><strong>Follow Us</strong><br>\n<a href=\"https://www.facebook.com/phil.dupuis.33\" target=\"_blank\">Facebook</a><br>\n<a href=\"https://instagram.com\" target=\"_blank\">Instagram</a><br></p>"
+          "text3": "<p><strong>Follow Us</strong><br>\n<a href=\"https://www.facebook.com/phil.dupuis.33\" target=\"_blank\">Facebook</a><br>\n<a href=\"https://instagram.com\" target=\"_blank\">Instagram</a></p><p><a href=\"https://www.kickstarter.com/projects/1486032864/mammoth-sucka/creator_bio\">Kickstarter</a><a href=\"https://instagram.com\" target=\"_blank\"><br></a><br></p>"
         },
         {
           "_tags": [
@@ -1534,7 +1535,7 @@
     "index.html": {
       "settings": {
         "title": "BEunlimited",
-        "meta_descr": "",
+        "meta_descr": "inventor,\ninvention,\ninventing,\nproduct development,\nenergy products",
         "order": 1
       },
       "components": [
