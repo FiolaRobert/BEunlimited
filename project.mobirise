@@ -22,17 +22,18 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 45,
+    "uniqCompNum": 51,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/sailicon-128x128-1.png",
     "noImageResize": "",
-    "path": "@PROJECT_PATH@"
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "inventor.html": {
       "settings": {
         "title": "BEunlimited-Inventor",
-        "meta_descr": "inventor,\ninventing,\ndesign,\nproducts,\nmanufactur,\nidea",
+        "meta_descr": "",
         "order": 4
       },
       "components": [
@@ -120,7 +121,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/beunlimited-copy2-645x128.png",
+              "src": "@PROJECT_PATH@/assets/images/belogo2-557x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -159,7 +160,7 @@
             "paddingBottom": "1",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1379.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/preview.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -412,7 +413,7 @@
             "overlayColor": "#222"
           },
           "text": "FOLLOW US",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a>   "
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      "
         },
         {
           "_tags": [
@@ -434,7 +435,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/beunlimited-copy2-128x25.png",
+              "src": "@PROJECT_PATH@/assets/images/belogo3-128x61.png",
               "width": 128,
               "active": true,
               "link": "index.html",
@@ -450,7 +451,7 @@
           },
           "text1": "<strong>Address</strong><br>36 Birdsong Road<br>Lorette, MB<br>Canada",
           "text2": "<strong>Contacts</strong><br>\n<a href=\"mailto:phildupuis@gmail.com\">Email</a><br>\nCall: <a href=\"tel:204-804-3283\">(204)804-3283</a><br>",
-          "text3": "<p><strong>Follow Us</strong><br>\n<a href=\"https://www.facebook.com/phil.dupuis.33\" target=\"_blank\">Facebook</a><br>\n<a href=\"https://instagram.com\" target=\"_blank\">Instagram</a></p><p><a href=\"https://www.kickstarter.com/projects/1486032864/mammoth-sucka/creator_bio\">Kickstarter</a><a href=\"https://instagram.com\" target=\"_blank\"><br></a><br></p>"
+          "text3": "<p><strong>Follow Us</strong><br>\n<a href=\"https://www.facebook.com\" target=\"_blank\">Facebook</a><br>\n<a href=\"https://instagram.com\" target=\"_blank\">Instagram</a><br></p>"
         },
         {
           "_tags": [
@@ -470,14 +471,14 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 CreationsByRob."
+          "text": "Copyright (c) 2017 RedLavenderDesigns"
         }
       ]
     },
     "products.html": {
       "settings": {
         "title": "BEunlimited-products",
-        "meta_descr": "Winnipeg,\nLorette,\nInventor,\nBear Bait,\nMammoth Sucka,\nwall anchor",
+        "meta_descr": "Winnipeg\nLorette\nInventor\nBear Bait\nMammoth Sucka",
         "order": 2
       },
       "components": [
@@ -565,7 +566,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/beunlimited-copy2-645x128.png",
+              "src": "@PROJECT_PATH@/assets/images/belogo2-557x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -597,7 +598,7 @@
             "paddingBottom": "2",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x3000.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/preview.jpg",
             "bgColor": "#F2F2F2",
             "bgColorRadio": false,
             "bgVideo": {
@@ -691,7 +692,7 @@
             }
           },
           "title1": "LED Bulbs",
-          "subtitle1": "",
+          "subtitle1": "$$$",
           "caption1": "Save money on your monthly bills by replacing all your <br>energy consuming bulbs with efficient LED bulbs.",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
@@ -707,7 +708,7 @@
             }
           },
           "title2": "Solar Panels",
-          "subtitle2": "",
+          "subtitle2": "$$$",
           "caption2": "Reduce your electricity bill by providing some of your <br>own energy with solar panels in your own home.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -1016,7 +1017,7 @@
             "overlayColor": "#222"
           },
           "text": "FOLLOW US",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      "
         },
         {
           "_tags": [
@@ -1038,7 +1039,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/beunlimited-copy2-128x25.png",
+              "src": "@PROJECT_PATH@/assets/images/belogo3-128x61.png",
               "width": 128,
               "active": true,
               "link": "index.html",
@@ -1054,7 +1055,7 @@
           },
           "text1": "<strong>Address</strong><br>36 Birdsong Road<br>Lorette, MB<br>Canada",
           "text2": "<strong>Contacts</strong><br>\n<a href=\"mailto:phildupuis@gmail.com\">Email</a><br>\nCall: <a href=\"tel:204-804-3283\">(204)804-3283</a><br>",
-          "text3": "<p><strong>Follow Us</strong><br>\n<a href=\"https://www.facebook.com/phil.dupuis.33\" target=\"_blank\">Facebook</a><br>\n<a href=\"https://instagram.com\" target=\"_blank\">Instagram</a></p><p><a href=\"https://www.kickstarter.com/projects/1486032864/mammoth-sucka/creator_bio\">Kickstarter</a><a href=\"https://instagram.com\" target=\"_blank\"><br></a><br></p>"
+          "text3": "<p><strong>Follow Us</strong><br>\n<a href=\"https://www.facebook.com\" target=\"_blank\">Facebook</a><br>\n<a href=\"https://instagram.com\" target=\"_blank\">Instagram</a><br></p>"
         },
         {
           "_tags": [
@@ -1074,7 +1075,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 CreationsByRob."
+          "text": "Copyright (c) 2017 RedLavenderDesigns"
         }
       ]
     },
@@ -1082,13 +1083,51 @@
       "settings": {
         "main": true,
         "title": "BEunlimited-Home",
-        "meta_descr": "inventing,\nenginuity",
+        "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
         "order": 3
       },
       "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-1e",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/preview.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "be",
+          "text": "<b>unlimited</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-lead": {
+              "color": "#6bc06d"
+            },
+            ".mbr-section-title": {
+              "color": "#6bc06d",
+              "font-size": "100px"
+            }
+          }
+        },
         {
           "_styles": {
             ".hide-buttons .nav-btn": {
@@ -1173,7 +1212,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/beunlimited-copy2-645x128.png",
+              "src": "@PROJECT_PATH@/assets/images/belogo2-557x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -1188,33 +1227,6 @@
           },
           "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BEunlimited</a>",
           "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"home.html#social-buttons3-x\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">MENU</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"home.html#header1-1\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"home.html#buttons1-z\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"home.html#testimonials2-0\">Testimonials</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"home.html#social-buttons3-x\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">CONTACT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tel:204-804-3283\">Call</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mailto:phildupuis@gmail.com\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Facebook.com\">Facebook</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"instagram.com\">Instagram</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"inventor.html\">Inventor</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"products.html\">Products</a></li>"
-        },
-        {
-          "_name": "header1",
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_anchor": "header1-1",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1379.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.4",
-            "overlayColor": "#ffffff",
-            "contentAlign": "center",
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false
-          },
-          "title": "BE unlimited",
-          "text": "",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
         },
         {
           "_tags": [
@@ -1271,7 +1283,7 @@
             "showCaption": true
           },
           "title": "Our goal is to make what is in your imagination apear into your hands.&nbsp;",
-          "caption": "<p><br></p><p>Hello. My name is Phil Dupuis. I am here to take your ingenious idea and make a real vesion in your hands. From napkin drawing to the production line, we will take you through each step of the way. Contact us to get started.</p><p>Located near Winnipeg, MB, Canada.</p>"
+          "caption": "<p><br></p><p>We want to take your ingenious idea and make a real vesion in your hands. From napkin drawing to the production line, we will take you through each step of the way. Contact us to get started.</p><p>Located near Winnipeg, MB, Canada.</p>"
         },
         {
           "_tags": [
@@ -1303,11 +1315,11 @@
                 "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": false,
+                "overlay": true,
                 "contentAlign": "left",
-                "showTitle": false,
+                "showTitle": true,
                 "title": "BACKGROUND VIDEO",
-                "showText": false,
+                "showText": true,
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
@@ -1317,13 +1329,13 @@
                 "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": false,
+                "overlay": true,
                 "contentAlign": "right",
-                "showTitle": false,
+                "showTitle": true,
                 "title": "BOOTSTRAP SLIDER",
-                "showText": false,
+                "showText": true,
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
+                "showButtons": true,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ],
@@ -1370,7 +1382,7 @@
                   "linkInNewWindow": false
                 }
               },
-              "authorName": "<p><a href=\"http://www.kicktraq.com/projects/1486032864/mammoth-sucka/\">Mammoth Sucka</a><a href=\"http://www.kicktraq.com/projects/1486032864/mammoth-sucka/\"></a></p>",
+              "authorName": "<a href=\"http://www.kicktraq.com/projects/1486032864/mammoth-sucka/\">Bear Bait</a>",
               "authorBio": "User"
             },
             {
@@ -1470,7 +1482,7 @@
             "overlayColor": "#222"
           },
           "text": "FOLLOW US",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/phil.dupuis.33\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      "
         },
         {
           "_tags": [
@@ -1492,7 +1504,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/beunlimited-copy2-128x25.png",
+              "src": "@PROJECT_PATH@/assets/images/belogo3-128x61.png",
               "width": 128,
               "active": true,
               "link": "index.html",
@@ -1508,7 +1520,7 @@
           },
           "text1": "<strong>Address</strong><br>36 Birdsong Road<br>Lorette, MB<br>Canada",
           "text2": "<strong>Contacts</strong><br>\n<a href=\"mailto:phildupuis@gmail.com\">Email</a><br>\nCall: <a href=\"tel:204-804-3283\">(204)804-3283</a><br>",
-          "text3": "<p><strong>Follow Us</strong><br>\n<a href=\"https://www.facebook.com/phil.dupuis.33\" target=\"_blank\">Facebook</a><br>\n<a href=\"https://instagram.com\" target=\"_blank\">Instagram</a></p><p><a href=\"https://www.kickstarter.com/projects/1486032864/mammoth-sucka/creator_bio\">Kickstarter</a><a href=\"https://instagram.com\" target=\"_blank\"><br></a><br></p>"
+          "text3": "<p><strong>Follow Us</strong><br>\n<a href=\"https://www.facebook.com\" target=\"_blank\">Facebook</a><br>\n<a href=\"https://instagram.com\" target=\"_blank\">Instagram</a><br></p>"
         },
         {
           "_tags": [
@@ -1528,14 +1540,14 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 CreationsByRob."
+          "text": "Copyright (c) 2017 RedLavenderDesigns"
         }
       ]
     },
     "index.html": {
       "settings": {
         "title": "BEunlimited",
-        "meta_descr": "inventor,\ninvention,\ninventing,\nproduct development,\nenergy products",
+        "meta_descr": "",
         "order": 1
       },
       "components": [
@@ -1544,25 +1556,20 @@
             "Theme"
           ],
           "_name": "header1",
-          "_styles": {
-            ".btn": {
-              "font-size": "60px"
-            }
-          },
-          "_anchor": "header1-10",
+          "_anchor": "header1-1d",
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/preview-2000x2000.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "overlay": true,
+            "overlayOpacity": "0.7",
             "overlayColor": "#000",
             "contentAlign": "center",
             "showTitle": false,
@@ -1571,110 +1578,33 @@
           },
           "title": "FULL SCREEN INTRO",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"inventor.html\" data-toolbar=\"-mbrBtnMove\">Inventor</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"products.html\" data-toolbar=\"-mbrBtnMove\">Products</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"inventor.html\" data-toolbar=\"-mbrBtnMove\">DEVELOP<br>YOUR<br>IDEA<br></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"products.html\" data-toolbar=\"-mbrBtnMove\">PRODUCTS<br>WE<br>SELL<br></a> "
         },
         {
           "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-size": "46px"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
-              "font-family": "'Oxygen', sans-serif"
-            },
-            ".link": {
-              "font-size": "1.1rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.191rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#060606"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#181818!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#202020"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#6bc06b!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".btn": {
-              "font-size": "36px"
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
             }
           },
           "_tags": [
             "Theme"
           ],
-          "_name": "menu",
-          "_anchor": "menu-0",
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-19",
           "_params": {
-            "bgColor": "#202020",
-            "fontSize": "1.1",
-            "fontName": {
-              "name": "Oxygen",
-              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
-              "css": "'Oxygen', sans-serif"
-            },
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
-            "logo": true,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": false
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
           },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/beunlimited-copy2-645x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BEunlimited</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"home.html#social-buttons3-x\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">MENU</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"home.html#header1-1\">Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"home.html#buttons1-z\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"home.html#testimonials2-0\">Testimonials</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"home.html#social-buttons3-x\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">CONTACT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"tel:204-804-3283\">Call</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"mailto:phildupuis@gmail.com\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Facebook.com\">Facebook</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"instagram.com\">Instagram</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"inventor.html\">Inventor</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"products.html\">Products</a></li>"
+          "text": "",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      "
         }
       ]
     }
