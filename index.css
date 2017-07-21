@@ -1,0 +1,47 @@
+.logo{
+	position: absolute;
+	top:0px;
+	left:100px;
+	z-index: 1;
+	background-color: #6bc06d;
+	width: 200px;
+	padding: 100px 10px 15px 10px;
+	overflow: hidden;
+border-radius: 10px;
+	box-shadow:  9px 13px 50px 5px rgba(0,0,0,0.53);
+	margin-top: -10px;
+
+}
+.logo img{
+	display: block;
+	width: 150px;
+	padding: 20px;
+	margin: 0 auto;
+
+}
+
+.top-link{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	cursor: pointer;
+}
+.top-link a{
+	color: inherit;
+	text-decoration: inherit;
+	font-size: inherit;
+}
+.top-link a:hover{
+	color:white;
+}
+.bubble{
+
+}
+.bubble img{
+
+}
+.bubble:hover{
+	height:300px;
+	width:300px;
+}
