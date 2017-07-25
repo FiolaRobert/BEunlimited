@@ -1,47 +1,139 @@
 .logo{
-	position: absolute;
-	top:0px;
-	left:100px;
+	display: block;
+	position: relative;
+	top:-1em;
+	left:9em;
 	z-index: 1;
 	background-color: #6bc06d;
-	width: 200px;
-	padding: 100px 10px 15px 10px;
-	overflow: hidden;
-border-radius: 10px;
+	width: 15em;
+	padding: 9em 0.5em 1em 0.5em;
+	border-radius: 1em;
 	box-shadow:  9px 13px 50px 5px rgba(0,0,0,0.53);
-	margin-top: -10px;
+	margin-top: -1em;
 
 }
 .logo img{
 	display: block;
-	width: 150px;
-	padding: 20px;
+	width: 10em;
+	padding: 2em;
 	margin: 0 auto;
 
 }
 
 .top-link{
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 0;
 	z-index: 1;
 	cursor: pointer;
 }
 .top-link a{
-	color: inherit;
+	color: white;
 	text-decoration: inherit;
 	font-size: inherit;
 }
 .top-link a:hover{
-	color:white;
+	color:#6bc06d;
 }
 .bubble{
-
+	display: flex;
+	width: 10em;
+	height: 10em;
+ /*border: 5px solid white;*/
+ border-radius: 50%;
+ box-shadow:   inset 7px 9px 19px -10px rgba(0,0,0,0.59);
+ align-items: center;
 }
 .bubble img{
+ width:90%;
 
 }
-.bubble:hover{
-	height:300px;
-	width:300px;
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+
+}
+.flex-group{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+}
+.flex-item{
+ 
+}
+h1{
+	font-size: 1.5rem;
+	color: white;
+	word-break: keep-all;
+
+}
+a h1:hover{
+	color:#6bc06d;
+}
+.socicon{
+	color:white
+}
+@media only screen and (max-width: 445px)
+{
+	.logo{
+		min-width:90%;
+	}
+}
+@media only screen and (max-width: 767px){
+	.logo{
+		width: 60%;
+		display: block;
+		position: absolute;
+		left:-1em;
+		top: 1em;
+		padding: 1em;
+		margin-top: 2em;
+	}
+	.logo:after{
+
+	}
+	.logo img{
+		margin:0 0 0 auto;
+		width: 40%;
+	}
+	.flex-container{
+	flex-direction: column;
+
+	width: 100%;
+	}
+	.flex-group{
+		width:100%;
+		flex-direction: row;
+		justify-content: flex-end;
+
+	}
+	.flex-item{
+ align-content: center;
+	}
+	.product-group{
+		flex-direction: row;
+		width: 100%;
+
+	}
+	.bubble{
+		display: none;
+	}
+	.bubble img{
+		margin:auto;
+	}
+	.mbr-table-cell{
+		padding-top: 0;
+	}
+}
+@media only screen and (min-width: 1200px)
+{
+	.logo{
+		position: absolute;
+	}
 }
