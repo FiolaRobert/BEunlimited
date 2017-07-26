@@ -23,7 +23,7 @@
   <link rel="stylesheet" type="text/css" href="index.css">
   
 </head>
-<body">
+<body >
 <section class="mbr-section mbr-section-hero mbr-section-full mbr-parallax-background" id="header1-1d" style="background-image: url(assets/images/preview-2000x2000.jpg);">
 
   <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(0, 0, 0);"></div>
@@ -35,60 +35,92 @@
     </div>
     <div class="top-link socicon">
      TALK TO US
-     <a class="btn btn-social" title="Call Us" href="tel:">
+     <a class="btn btn-social" title="Call Us" href="tel:204-804-3283">
     <i class="fa fa-phone"></i></a>   
     <a class="btn btn-social" title="Email Us" href="mailto:phildupuis@gmail.com">
-    <i class="fa fa-envelope"></i></a>  
+    <i class="fa fa-envelope"></i></a> 
+    <a class="btn btn-social" title="Mail Us"  onclick="alert('36 Birdsong Road, Lorette, MB R0A 0Y0');">
+    <i class="fa fa-send"></i></a>  
     </div>
     <div class="container">
       <div class="row">
         <div class="mbr-section col-md-10 col-md-offset-1 text-xs-center flex-container" >
           <div class="flex-group" >
-            <div class="mbr-section-btn" >
+            
               <div class="flex-item">
-              <div class="bubble bubble-1 btn btn-primary">
-                <a href="inventor.html" ><i id="icon-1" class="fa fa-lightbulb-o"></i></a>
-                <img id="bubble-image1" src="assets/images/drawing.jpeg">
-              </div></div>
+                <div class="bubble bubble-1 btn btn-primary">
+                  <a href="inventor.html" ><i id="icon-1" class="fa fa-lightbulb-o"></i></a>
+                  <img id="bubble-image1" src="assets/images/drawing.jpeg">
+                </div>
+              </div>
+            
 
-            </div>
-
-            <div > 
-              <a href="inventor.html" class="btn" >
+            <div class="btn flex-item"> 
+              <a href="inventor.html" class="btn shrink-btn" >
                 <h1>DEVELOP YOUR IDEA</h1>
               </a>
             </div>
           </div>
-            <div class="flex-group">
-              <div class="flex-item">
+
+          <div class="flex-group">
+            <div class="flex-item">
               <div class="bubble bubble-2 btn btn-primary">
               <a href="products.html" ><i class="fa fa-shopping-cart" id="icon-2"></i></a>
               <img id="bubble-image2" src="assets/images/drawing.jpeg">
-              </div></div>
-              <div class="flex-item">
-                <a href="products.html" class="btn">
-                  <h1>PRODUCTS WE SELL</h1>
-                </a>
               </div>
             </div>
-          </div>
+
+            <div class="flex-item">
+              <a href="products.html" class="btn shrink-btn">
+                  <h1>PRODUCTS WE SELL</h1>
+              </a>
+            </div>
+          </div>        
         </div>
       </div>
     </div>
+  </div>
 
     
-    <div class="socicon" style="position:fixed; bottom:0; right:1em;">
+    <div class="socicon follow" >
 FOLLOW US&nbsp
      <a class="btn btn-social" title="Facebook" target="_blank" href="https://www.facebook.com">
-    <i class="socicon socicon-facebook"></i></a>   
+    <i class="fa fa-facebook-square"></i></a>   
 
     <a class="btn btn-social" title="Instagram" target="_blank" href="https://instagram.com">
-    <i class="socicon socicon-instagram"></i></a>   
-    <a class="btn btn-social" title="Newsletter" target="_blank" href="mailto:phildupuis@gmail.com">
-    <i class="socicon socicon-mail"></i></a>    
+    <i class="fa fa-instagram"></i></a>   
+    <a class="btn btn-social" title="Newsletter"   >
+    <i class="fa fa-envelope" onclick="$('.subscribe-box').slideToggle();"></i></a>    
     </div>
 </section>
+<section class="mbr-section subscribe-box" id="form2-5" style="background-color: rgb(46, 46, 46); padding-top: 10px; padding-bottom: 10px;">
+      
+    <div id="subscribe" class="mbr-section mbr-section-nopadding">
+        <div class="container">
+            <div class="row">
+              <div class="x-button fa fa-remove " onclick="$('.subscribe-box').fadeOut()"></div>
+                
+              
+                <div class="col-lg-10 col-lg-offset-1 " data-form-type="formoid">
+                    <div data-form-alert="true">
+                      <div hidden="" data-form-alert-success="true">Thanks for subscribing!
+                      </div>
+                    </div>
+                    <form class="mbr-form " action="https://mobirise.com/" method="post" data-form-title="SUBSCRIBE FORM">
 
+                      <input type="hidden" value="3hV/oSjoW2/L9O1tbrhmK7rlXRVjWQIlsbeoRbU/Sy2vGPQXr8A8oFfQlmFklqjnCJ48UgMGNCz139pEU+wozq9yNis9bF456fNZOIqIL93NUdqIFqSajlHgxGEHHq4w" data-form-email="true">
+                      
+                        <div class="mbr-subscribe mbr-subscribe-dark input-group flex-container">
+                        <h1>Subscribe To Our Newsletter</h1>
+                            <input type="email" class="form-control" name="email" required="" data-form-field="Email" placeholder="Enter Your Email Address..." id="form2-5-email" >
+                            <div class="input-group-btn"><button type="submit" class="btn btn-primary" onclick="$('.subscribe-box').fadeOut()"><span class="btn-text">SUBSCRIBE</span><i class="btn-loader"></i></button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
             
     
             
@@ -100,6 +132,7 @@ FOLLOW US&nbsp
   <script src="assets/smooth-scroll/smooth-scroll.js"></script>
   <script src="assets/jarallax/jarallax.js"></script>
   <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid/formoid.min.js"></script>
   <script src="index.js"></script>
   
 </body>

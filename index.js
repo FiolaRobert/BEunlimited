@@ -10,13 +10,15 @@ var productimages=
 var index1=0;
 var index2=0;
 $(function(){
+	$('bubble-image1').hide();
+	$('bubble-image2').hide();
 	$('.bubble').hover(
 		function(){showImg($(this))},
 		function(){hideImg()}
 	);
+	
 });
-$('bubble-image1').hide();
-$('bubble-image2').hide();
+
 
 function showImg(x){
 	 // console.log(x);
@@ -31,7 +33,7 @@ function showImg(x){
 		var bubble=$('#bubble-image1');
 		bubble.attr('src',image);//set image
 		bubble.css('display','unset');//show image
-		bubble.fadeIn();
+		bubble.show();
 	}
 
 	else if(x.hasClass('bubble-2'))
@@ -45,13 +47,14 @@ function showImg(x){
 		var bubble=$('#bubble-image2');
 		bubble.attr('src',image);//set image
 		bubble.css('display','unset');//show image
+		bubble.show();
 	}
 }
 function hideImg(){
-	$('#icon-1').css('display','unset');//show icon
-	$('#icon-2').css('display','unset');//show icon
+	
 	
 	$('#bubble-image1').css('display','none');//hide image
 	$('#bubble-image2').css('display','none');//hide image
-	
+	$('#icon-1').css('display','unset');//show icon
+	$('#icon-2').css('display','unset');//show icon
 }
