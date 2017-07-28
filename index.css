@@ -58,7 +58,7 @@
 	margin: auto;
 }
 .bubble a{
-	color: black;
+	color: white;
 	text-decoration: none;
 	font-size: 10em;
 	width: 100%;
@@ -76,7 +76,6 @@
 	display: none;
 	height: 100%;
  	width:100%;
- 	transition: 0.5s;
 }
 .flex-container{
 	display: flex;

@@ -1,11 +1,14 @@
 var inventorimages=[
-	"assets/images/sparklers.jpg",
-	"assets/images/table.jpg"
+	"assets/images/Idea300x300.jpg",
+	"assets/images/Design300x300.jpg",
+	"assets/images/prototype300x300.jpg",
+	"assets/images/manufacturing300x300.jpg"
 ];
 var productimages=
 [
-	"assets/images/bridge.jpg",
-	"assets/images/desktop.jpg"
+	"assets/images/mammothsuckalogo300x300.jpg",
+	"assets/images/led-bulbs.jpg",
+	"assets/images/solar-panels-australia.png"
 ];
 var index1=0;
 var index2=0;
@@ -16,7 +19,7 @@ $(function(){
 		function(){showImg($(this))},
 		function(){hideImg()}
 	);
-	
+
 });
 
 
@@ -25,7 +28,7 @@ function showImg(x){
 	if(x.hasClass('bubble-1'))
 	{
 		// console.log(1);
-		if(index1>=productimages.length){index1=0;}
+		if(index1>=inventorimages.length){index1=0;}
 		var image= inventorimages[index1++];
 		// console.log(inventorimages.length);
 		var icon=$('#icon-1');
@@ -33,7 +36,7 @@ function showImg(x){
 		var bubble=$('#bubble-image1');
 		bubble.attr('src',image);//set image
 		bubble.css('display','unset');//show image
-		bubble.show();
+		bubble.fadeIn('slow');
 	}
 
 	else if(x.hasClass('bubble-2'))
@@ -45,14 +48,12 @@ function showImg(x){
 		var icon=$('#icon-2');
 		icon.css('display','none');//hide icon
 		var bubble=$('#bubble-image2');
-		bubble.attr('src',image);//set image
-		bubble.css('display','unset');//show image
-		bubble.show();
+		bubble.attr('src',image).css('display','unset').fadeIn('fast');
 	}
 }
 function hideImg(){
-	
-	
+
+
 	$('#bubble-image1').css('display','none');//hide image
 	$('#bubble-image2').css('display','none');//hide image
 	$('#icon-1').css('display','unset');//show icon
