@@ -32,11 +32,9 @@ function showImg(x){
 		var image= inventorimages[index1++];
 		// console.log(inventorimages.length);
 		var icon=$('#icon-1');
-		icon.css('display','none');//hide icon
+		icon.css('display','none').fadeOut('slow');//hide icon
 		var bubble=$('#bubble-image1');
-		bubble.attr('src',image);//set image
-		bubble.css('display','unset');//show image
-		bubble.fadeIn('slow');
+		bubble.attr('src',image).css('display','unset').show();
 	}
 
 	else if(x.hasClass('bubble-2'))
@@ -46,16 +44,16 @@ function showImg(x){
 		var image= productimages[index2++];
 
 		var icon=$('#icon-2');
-		icon.css('display','none');//hide icon
+		icon.css('display','none').fadeOut('slow');//hide icon
 		var bubble=$('#bubble-image2');
-		bubble.attr('src',image).css('display','unset').fadeIn('fast');
+		bubble.attr('src',image).css('display','unset').show();
 	}
 }
 function hideImg(){
 
 
-	$('#bubble-image1').css('display','none');//hide image
-	$('#bubble-image2').css('display','none');//hide image
-	$('#icon-1').css('display','unset');//show icon
-	$('#icon-2').css('display','unset');//show icon
+	$('#bubble-image1').css('display','none').hide();//hide image
+	$('#bubble-image2').css('display','none').hide();//hide image
+	$('#icon-1').css('display','unset').fadeIn('slow');//show icon
+	$('#icon-2').css('display','unset').fadeIn('slow');//show icon
 }

@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+/*font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Josefin Slab', serif;*/
 .mbr-table-cell{
 	height: 100%;
 }
@@ -24,11 +29,12 @@
 }
 
 .top-link{
+	font-family: 'Open Sans Condensed', sans-serif;
 	position: fixed;
 	top: 1em;
 	right: 1em;
 	z-index: 1;
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 .top-link a{
 	color: white;
@@ -45,6 +51,7 @@
 	top:-5%;
 }
 .bubble{
+
 	display:  block;
 	width: 20em;
 	height: 20em;
@@ -81,34 +88,49 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	align-items: center;
-	align-content: center;
-	justify-content: center;
+	/*align-items: center;*/
+	/*align-content: center;*/
+	/*justify-content: center;*/
 }
 .flex-group{
-	width: 50%;
+	/*width: 48%;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
 	align-content: center;
-	justify-content: center;
+	justify-content: center;*/
+	/*border: 1px solid white;*/
+	border-radius: 20px;
+	padding:10px;
+	margin: 5px;
+	box-shadow: 0px 0px 10px black;
 }
 
-.flex-item{
-
-}
 h1{
+	font-family: 'Audiowide', sans-serif;
+	position: relative;
 	font-size: 1.5rem;
 	color: white;
 	word-break: keep-all;
+	font-size-adjust: auto;
+	font-weight: 600;
+text-shadow: 0px 0px 2px black;
+	transition: all 0.1s;
 
+	text-align: center;
 }
 a h1:hover{
+	position: relative;
+	transform: scale(1.02);
+	/*top:-2px;*/
+	/*left:-1px;*/
 	color:#6bc06d;
+	text-shadow: 0px 0px 10px black;
+
 }
 .socicon{
-
+font-family: 'Open Sans Condensed', sans-serif;
 	color:white;
 }
 .fa{
@@ -155,30 +177,43 @@ a h1:hover{
 	z-index: 100;
 }
 .x-button:hover{
-	color: black;
+	color: #6bc06d;
 }
-@media only screen and (max-width: 600px)
+.writing{
+	/*width: 75%;*/
+	text-align: center;
+	margin: 0 auto;
+}
+.writing p{
+	color: darkgray;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+@media only screen and (min-width: 1200px)
 {
-	.logo{
-		min-width:8em;
-	}
+	/*.logo{
+		position: absolute;
+	}*/
 }
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 770px){
+	body{
+		overflow: hidden;
+	}
 	.logo{
-		width: 50%;
+		width: 60%;
 		display: block;
-		position: relative;
-		left:-1em;
-		top: 0.5em;
+		position: absolute;
+		left:-1.5em;
+		top: 1em;
 		padding: 1em;
+		margin: 0.5em;
 		margin-top: 0;
 	}
 	.logo:after{
 
 	}
 	.logo img{
-		margin:0 0 0 auto;
-		width: 6em;
+		margin:0 auto 0 auto;
+		width: 5em;
 	}
 	.flex-container{
 		flex-direction: column;
@@ -189,10 +224,11 @@ a h1:hover{
 		width:100%;
 		flex-direction: row;
 		justify-content: center;
-
+		height: auto;
 	}
 	.flex-item{
  		align-content: center;
+		width: 100%;
 	}
 	.product-group{
 		flex-direction: row;
@@ -232,9 +268,17 @@ a h1:hover{
 		margin:1em;
 	}
 }
-@media only screen and (min-width: 1200px)
+@media only screen and (max-width: 600px)
 {
 	.logo{
-		position: absolute;
+		min-width:8em;
+		position:static;
+		width: 90%;
+
+		margin: 0 auto 0 auto;
+	}
+	.logo img{
+		margin: 0 auto;
+		/*width:5em;*/
 	}
 }
