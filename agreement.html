@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Agreement</title>
+	<style type="text/css">
+	div textarea{
+		-webkit-user-select: none; /* Chrome/Safari */        
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* IE10+ */
+
+		/* Rules below not implemented in browsers yet */
+		-o-user-select: none;
+		user-select: none;
+	}
+	#print{
+		display: none;
+	}
+	@media print { 
+		#noprint { 
+			display:none 
+		} 
+		#print{
+			display: block;
+		}
+	} 
+</style>
+</head>
+
+<body>
+<div id="noprint" onselectstart="return false" unselectable="on">
+text goes here
+</div>
+<div id="print">
+<img src="logo/beunlimited.jpg" width="25%">
+ <h1>This page is intended to be viewed online and may not be printed. </h1>
+ </div> 
+</body>
+</html>
